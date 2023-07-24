@@ -52,7 +52,8 @@ def calculate():
 def dictionary():
      dict = {
      "name":"Basit",
-     "age": 25
+     "age": 25,
+     "course": "mca"
 }
      return render_template('dict.html', values = dict)
 
